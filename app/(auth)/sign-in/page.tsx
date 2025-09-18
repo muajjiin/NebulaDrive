@@ -1,8 +1,7 @@
 // app/(auth)/sign-in/page.tsx
+import AuthForm from "@/components/AuthForm";
 import React from "react";
 
-const SignIn = () => {
-  return <div>Sign In Page</div>;
-};
+const SignIn = () =>< AuthForm type="sign-in"/> 
 
 export default SignIn;

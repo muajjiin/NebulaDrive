@@ -11,10 +11,14 @@ const config: Config = {
   	extend: {
   		colors: {
   			brand: {
-  				'100': '#EA6365',
-  				DEFAULT: '#FA7275'
+  			  100: '#1590C5',    // hover
+     			 DEFAULT: '#1CA7EC', // default	
   			},
-  			red: '#FF7474',
+
+			brandYellow:{
+				DEFAULT:'#1590C5'
+			},
+		red: '#FF7474',
   			error: '#b80000',
   			green: '#3DD9B3',
   			blue: '#56B8FF',
@@ -72,7 +76,9 @@ const config: Config = {
   			}
   		},
   		fontFamily: {
-  			poppins: ["var(--font-poppins)"]
+  			poppins: [
+  				'var(--font-poppins)'
+  			]
   		},
   		boxShadow: {
   			'drop-1': '0px 10px 30px 0px rgba(66, 71, 97, 0.1)',
